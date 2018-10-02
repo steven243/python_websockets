@@ -1,6 +1,6 @@
 import pusher
 
-pusher_client = pusher.Pusher (
+pusher_client = pusher.Pusher(
   app_id='611990',
   key='22f110291d714ce8eaaa',
   secret='f4ab8cbd732e3e6b49d7',
