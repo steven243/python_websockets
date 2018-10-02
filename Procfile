@@ -1,1 +1,1 @@
-web: pusher app:app_id='611990'
+web: gunicorn app:app --log-file=-
