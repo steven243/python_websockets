@@ -1,1 +1,1 @@
-web: pusher app:app --log-file=-
+web: pusher app:app_id='611990'
