@@ -1,1 +1,1 @@
-web: app:app
+web: pusher_client app:app --log-file=-
