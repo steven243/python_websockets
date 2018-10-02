@@ -11,4 +11,4 @@ pusher_client = pusher.Pusher(
 i = 0
 while True:
     i+= 1
-    pusher_client.trigger('my-channel', 'my-event', {'sl': i, 'sw': i, 'pl': i, 'pw': i})
+    pusher_client.trigger('my-channel1', 'my-event1', {'sl': i, 'sw': i, 'pl': i, 'pw': i})
