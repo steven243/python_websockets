@@ -1,9 +1,9 @@
 import pusher
 
 pusher_client = pusher.Pusher(
-  app_id='611990',
-  key='22f110291d714ce8eaaa',
-  secret='f4ab8cbd732e3e6b49d7',
+  app_id='612854',
+  key='94ae683153c18182d415',
+  secret='f3d994bfcd90e2e57875',
   cluster='mt1',
   ssl=True
 )
