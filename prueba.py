@@ -12,3 +12,4 @@ i = 0
 while True:
     i+= 1
     pusher_client.trigger('my-channel', 'my-event', {'sl': i, 'sw': i, 'pl': i, 'pw': i})
+    break
