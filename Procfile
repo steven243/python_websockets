@@ -1,1 +1,1 @@
-web: gunicorn prueba --log-file=-
+web: prueba --log-file=-
