@@ -10,6 +10,8 @@ pusher_client = pusher.Pusher(
 
 i = 0
 while True:
+  
+  if(i==100):
+    break
     i+= 1
     pusher_client.trigger('my-channel', 'my-event', {'sl': i, 'sw': i, 'pl': i, 'pw': i})
-    break
