@@ -1,1 +1,1 @@
-web: gunicorn app:pusher --log-file=-
+web: gunicorn app:prueba --log-file=-
